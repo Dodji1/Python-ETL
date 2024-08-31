@@ -1,0 +1,7 @@
+sqlite3
+requests
+pandas
+pyspark
+hadoop
+hive
+bs4

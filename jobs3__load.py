@@ -1,4 +1,5 @@
 import pandas as pd                 # Manipulation de données
+import sqlite3                      # pour la création de l’instance de base de données.
 
 # Load data to .csv
 def load(target_file, transformed_data):
