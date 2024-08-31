@@ -3,6 +3,11 @@ import pandas as pd                 # Manipulation de données
 import xml.etree.ElementTree as ET  # Manipulation de fichier xlm
 from datetime import datetime       # gestion de temps
 
+from jobs1_1_api_connect import app_extract
+from jobs1_2_database_coonect import database_extract
+#from jobs1_3_local_files import extract
+#from jobs1_4_websscraping import movies_scrap
+
 # Fonctions permettant d’extraire les données de différents formats de fichiers.
 # .csv .json .xml .xlsx
 

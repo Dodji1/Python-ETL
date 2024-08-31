@@ -11,3 +11,17 @@ def history(target_file, transformed_data, time):
 # Load data to .json
 
 # Load data to .db sqlite
+
+
+"""# Nom de la base de données et de la table
+db_name = '../data/movies.db'
+table_name = 'top_film'
+
+# Se connecter à la base de données SQLite
+conn = sqlite3.connect(db_name)
+
+# Insérer le DataFrame dans une table SQLite
+df.to_sql(table_name, conn, if_exists='replace', index=False)
+
+# Fermer la connexion à la base de données
+conn.close()"""
