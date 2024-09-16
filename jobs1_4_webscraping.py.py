@@ -9,7 +9,7 @@ def movies_scrap():
     df = pd.DataFrame(columns=["average_rank","film","year"])
 
     # HTTPS GET
-    r = requests.get(url) 
+    r = requests.get(url)
     html_page = r.text
     soup = bs(html_page, 'html.parser')
 
